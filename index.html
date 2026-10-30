@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css" />
+
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap-utilities.min.css"> -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+
+      <div class="container d-flex align-items-center justify-content-between h-100 w-100">
+
+        <img class="logo" src="image/header/logo@2x.png" alt="logo">
+
+
+        <div class="nav-meno h-100 d-none d-lg-block">
+          <ul class="d-flex mx-5 align-items-center h-100 ">
+            <li class="mx-3 fs-5"><a href="#">About</a></li>
+            <li class="mx-3 fs-5"><a href="#">Services</a></li>
+            <li class="mx-3 fs-5"><a href="#"> Caregivers</a></li>
+            <li class="mx-3 fs-5"><a href="#"> Resources</a></li>
+            <li class="mx-3 fs-5"><a href="#">Locations</a></li>
+          </ul>
+        </div>
+        <div class="nav-icon  h-100  mx-3 ">
+          <a cla href="#" class="bg-primary "> <i class="fa fa-twitter "></i></a>
+          <a href="#" class="bg-warning"> <i class="fa fa-facebook"></i></a>
+          <a href="#" class="bg-info"> <i class="fa fa-linkedin"></i></a>
+          <a href="#" class="bg-danger"> <i class="fa fa-pinterest"></i></a>
+        </div>
+        <div class="d-lg-none">
+          <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
+            aria-controls="staticBackdrop">
+            Toggle static offcanvas
+          </button>
+
+          <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
+            aria-labelledby="staticBackdropLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="staticBackdropLabel">Offcanvas</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div>
+                I will not close if you click outside of me.
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <!-- <button class="responsive-btn ms-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#responsive_menu"
+            aria-controls="offcanvasExample">
+
+            <i class="fas fa-bars" data-bs-target="#responsive_menu"></i>
+
+          </button>
+
+          <div class="offcanvas offcanvas-start"  tabindex="-1" id="staticBackdrop"
+            aria-labelledby="staticBackdropLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="staticBackdropLabel">Offcanvas</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div>
+                I will not close if you click outside of me.
+              </div>
+            </div>
+          </div> -->
+        </div>
+        <!-- <div class="d-lg-none">
+
+          <button class="responsive-btn ms-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#responsive_menu"
+            aria-controls="offcanvasExample">
+
+            <i class="fas fa-bars" data-bs-target="#responsive_menu"></i>
+
+          </button>
+
+           <div class="offcanvas offcanvas-start w-75" tabindex="-1" id="responsive_menu"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header responsive-menu__header">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body responsive-menu__body">
+              <div class="responsive-menu__list">
+                <ul>
+                  <li><a href="#">خانه</a></li>
+                  <li>
+                    <a href="#">خدمات ما</a>
+                  </li>
+                  <li><a href="#">سوالات متداول</a></li>
+                  <li><a href="#">تماس با ما</a></li>
+                  <li><a href="#">درباره ما</a></li>
+                </ul>
+              </div>
+            </div>
+          </div> 
+
+        </div> -->
+      </div>
+
+    </nav>
+
+
+    <div class="swiper heroSwiper">
+
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+
+          <div class="bg tow h-100" style="background-image:url(image/header/bg-header.jpg)">
+          </div>
+
+          <div class="overlay"></div>
+
+          <div class="content">
+
+            <span class="sub">
+              Professional Medical Care
+            </span>
+
+            <h1 class="fs-1">
+              Caring For Life Every Day
+            </h1>
+
+            <p>
+              We provide quality home healthcare with experienced doctors
+              and nurses.
+            </p>
+
+            <a href="#" class="btn d-none d-lg-block">
+              Learn More
+            </a>
+
+          </div>
+
+        </div>
+
+        <div class="swiper-slide">
+
+          <div class="bg" style="background-image:url(image/header/4-1-1200x650.jpeg)">
+          </div>
+
+          <div class="overlay"></div>
+
+          <div class="content">
+
+            <span class="sub">
+              Home Healthcare
+            </span>
+
+            <h1 class="fs-1">
+              Medical Services At Your Home
+            </h1>
+
+            <p>
+              High quality treatment and personal care wherever you are.
+            </p>
+
+            <a href="#" class="btn d-none d-md-block">
+              Contact Us
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+    </div>
+
+  </header>
+  <section class="stay-at-home ">
+
+
+    <div class=" container ">
+
+      <div class="row">
+        <div class="col-12">
+          <h2 class="title-h">Would you rather stay at home than go into a health care facility or nursing home?</h2>
+        </div>
+        <div class="d-flex flex-column flex-lg-row w-100 align-items-center justify-content-between py-4   ">
+          <div class="d-flex align-items-center flex-column flex-lg-row ">
+            <div class="info-bg mx-3"></div>
+            <p class="title-poro ">
+              Nano Home Care, LLC will provide the following home health care programs at flexible schedules and
+              cost-friendly
+              service rates</p>
+          </div>
+          <button class="title-btn">View care services </button>
+        </div>
+      </div>
+
+      <div class="swiperOne mySwiper mt-3">
+        <div class="swiper-wrapper w-100 h-100">
+          <div class="swiper-slide ">
+            <div class="inner__sild" style="background-image:url(image/section1/s1.jpeg)">
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, quod., amet consectetur adipisicing
+                elit. Cum, quod</p>
+              <button class="btn-mySwiper">Hourly Home Care</button>
+            </div>
+
+          </div>
+          <div class="swiper-slide">
+            <div class="inner__sild" style="background-image:url(image/section1/s2.jpeg)">
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, quod., amet consectetur adipisicing
+                elit. Cum, quod</p>
+              <button class="btn-mySwiper">Hourly Home Care</button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="inner__sild" style="background-image:url(image/section1/s3.jpeg)">
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, quod., amet consectetur adipisicing
+                elit. Cum, quod</p>
+              <button class="btn-mySwiper">Hourly Home Care</button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="inner__sild" style="background-image:url(image/section1/s4.jpeg)">
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, quod., amet consectetur adipisicing
+                elit. Cum, quod</p>
+              <button class="btn-mySwiper">Hourly Home Care</button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="inner__sild" style="background-image:url(image/section1/s5.jpeg)">
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, quod., amet consectetur adipisicing
+                elit. Cum, quod</p>
+              <button class="btn-mySwiper">Hourly Home Care</button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="inner__sild" style="background-image:url(image/section1/s6.jpeg )">
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, quod., amet consectetur adipisicing
+                elit. Cum, quod</p>
+              <button class="btn-mySwiper">Hourly Home Care</button>
+            </div>
+          </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+    </div>
+
+  </section>
+  <section class="center">
+    <div class="knowledge" style="background-image:url(image/section2/4-1-1200x650.jpeg)">
+      <p>Knowledge Center</p>
+      <div class="knowledge__btn">
+        <button>What is a caregiver?</button>
+        <button>Senior care industry analysis</button>
+        <button>How to start your care?</button>
+      </div>
+    </div>
+
+
+    <div class="knowledge__info">
+      <p class="knowledge__paragraf ">
+        A Caregiver is someone who is compassionate, reliable, knowledgeable, and most importantly, trustworthy.
+        NanoCare leads the industry in finding the absolute best Caregivers to provide seniors with assistance at home,
+        giving their families peace of mind.</p>
+      <div class="knowledge__info__btn">
+      <button class="mx-3 text-bg-primary my-3">View Care Services</button>
+      <button class="text-bg-light">View Our CaregiverView </button>
+      </div>
+    </div>
+
+
+
+    </div>
+  </section>
+  <section class="choose ">
+    <div class="container  ">
+
+      <div class="row">
+        <div class="col-12">
+          <h2 class="title-h">Why choose nano home care?</h2>
+        </div>
+        <div class="d-flex flex-column flex-lg-row w-100 align-items-center justify-content-between py-4   ">
+          <div class="d-flex align-items-center flex-column flex-lg-row ">
+            <div class="info-bg mx-3"></div>
+            <p class="title-poro ">
+              We are committed to being your shoulder to lean on and providing honest advice for your loved one’s
+              situation
+              during this delicate time. </p>
+          </div>
+          <button class="title-btn">Read Testimonials </button>
+        </div>
+      </div>
+
+      <div class="choose__boxs w-100 h-100 mt-4">
+        <div class="row">
+          <div class="choose__box col-12 col-md-3  ">
+            <div class="text-bg-primary  d-flex flex-column">
+              <i class="fas fa-user-doctor"></i>
+              <span class="">Daily care experts</span>
+              <p>We specialize in around the clock care to help seniors live well at home.</p>
+            </div>
+          </div>
+          <div class="choose__box col-12 col-md-3  ">
+            <div class="orenge  d-flex flex-column">
+              <i class="fab fa-whatsapp"></i>
+              <span>Available 24/7</span>
+              <p>We are available 24 hours a day to provide your loved one with a caregiver.</p>
+            </div>
+          </div>
+          <div class="choose__box col-12 col-md-3">
+            <div class="text-bg-danger  d-flex flex-column">
+              <i class="fas fa-blind "></i>
+              <span>Balanced care</span>
+              <p>Our unique approach to care promotes healthy mind, body and spirit.</p>
+            </div>
+          </div>
+          <div class="choose__box col-12 col-md-3">
+            <div class="text-bg-warning d-flex flex-column ">
+              <i class="fas fa-heart-pulse "></i>
+              <span>high caliber caregivers</span>
+              <p>We typically hire only 1 in 25 applicants and provide ongoing training.</p>
+            </div>
+
+          </div>
+          <div class="choose__box col-12 col-md-3">
+            <div class="text-bg-success d-flex flex-column ">
+              <i class="fas fa-gem"></i>
+              <span>Peace of mind</span>
+              <p>Independent industry surveys place our client satisfaction rate at 97%.</p>
+            </div>
+          </div>
+          <div class="choose__box col-12 col-md-3 ">
+            <div class="text-bg-secondary d-flex flex-column">
+              <i class="fas fa-stethoscope"></i>
+              <span>A trusted partner</span>
+              <p>Nano Home Care is the trusted referral choice for elder care professionals.</p>
+            </div>
+          </div>
+          <div class="choose__box col-12 col-md-3 ">
+            <div class="text-bg-info d-flex flex-column">
+              <i class="fas fa-vial"></i>
+              <span>Cognitive therapeutics</span>
+              <p>Fun yet effective activities designed by experts to keep aging minds sharp</p>
+            </div>
+          </div>
+          <div class="choose__box col-12 col-md-3 ">
+            <div class="purple d-flex flex-column">
+              <i class="fas fa-wheelchair"></i>
+              <span>No long term contract</span>
+              <p>Use our services only as long as you’re 100% satisfied.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section class="news">
+    <div class="container ">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="title-h">Stay up to date with the latest news & press releases.</h2>
+        </div>
+        <div class="d-flex flex-column flex-lg-row w-100 align-items-center justify-content-between py-4   ">
+          <div class="d-flex align-items-center flex-column flex-lg-row ">
+            <div class="info-bg mx-3"></div>
+            <p class="title-poro ">
+              Pro­vides gen­eral infor­ma­tion and dis­cus­sion to promote broad consumer understanding and knowledge
+              about various health-related topics. </p>
+          </div>
+          <button class="title-btn">View all Posts </button>
+        </div>
+      </div>
+
+      <div class="news__date">
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <div class="date__one">
+              <div class="date__image"> <img src="image/section4/photo-1472133530746-ae9b21e91c41-1200x650.jpeg" alt="">
+              </div>
+              <div class="date__mar"><span>20 Mar</span></div>
+              <div class="w-100 ">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, explicabo.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6  mb-3">
+            <div class="date__two">
+              <div class="date__image"> <img src="image/section4/7-1200x650.jpeg" alt=""></div>
+              <div class="d-flex ">
+                <div class="date__mar"><span>18 Mar</span></div>
+                <div class="w-100 ">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, laboriosam.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4  mb-3">
+            <div class="date__three">
+
+              <div class="date__image"> <img src="image/section4/4-1-1200x650.jpeg" alt=""></div>
+              <div class="d-flex">
+                <div class="date__mar"><span>19 Mar</span></div>
+                <div class="w-100 ">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, laboriosam.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4  mb-3">
+            <div class="date__four">
+              <div class="date__image"> <img src="image/section4/s6.jpeg" alt=""></div>
+              <div class="d-flex">
+                <div class="date__mar"><span>16 Mar</span></div>
+                <div class="w-100 ">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, laboriosam.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4  mb-3">
+            <div class="date__five">
+
+              <div class="date__image"> <img src="image/section4/s5.jpeg" alt=""></div>
+              <div class="d-flex">
+                <div class="date__mar"><span>15 Mar</span></div>
+                <div class="w-100 ">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, laboriosam.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="info-number d-flex flex-column flex-md-row flex-wrap ">
+
+    <div>
+      <span class="counter" data-target="20000">0</span>
+      <p>Home health care professionals</p>
+      <div><i class="fas fa-user-doctor"></i></div>
+    </div>
+    <div>
+      <span class="counter" data-target="3000">0</span>
+      <p>Office locations</p>
+      <div><i class="fa-solid fa-map-marker-alt"></i></div>
+    </div>
+    <div>
+      <span class="counter" data-target="68">0</span>
+      <p>States served by nanocare</p>
+      <div><i class="fa-solid fa-hospital"></i></div>
+    </div>
+    <div>
+      <span class="counter" data-target="7800">0</span>
+      <p>Our client satisfaction rate</p>
+      <div><i class="fas fa-heart-pulse "></i></div>
+    </div>
+  </section>
+  <section class="field">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="title-h">Our 97% client satisfaction rate is unparalleled in our field.</h2>
+        </div>
+        <div class="d-flex flex-column flex-lg-row w-100 align-items-center justify-content-between py-4   ">
+          <div class="d-flex align-items-center flex-column flex-lg-row ">
+            <div class="info-bg mx-3"></div>
+            <p class="title-poro ">
+              Read below what our clients have to say and learn more about what makes us the premier provider of in-home
+              senior care.. </p>
+          </div>
+          <button class="title-btn">Read Testimonials </button>
+        </div>
+      </div>
+
+      <div class="field__box d-flex mt-3 flex-column flex-lg-row">
+
+        <div class="info-field__box">
+          <span class="px-4">Sara M.</span>
+          <p class="px-4"> Caregiving daughter</p>
+          <p class="w-100 p-4"> Your help and assistance in this challenging period is greatly appreciated. Our entire
+            family extends
+            our thanks for all you have done.</p>
+        </div>
+
+        <div class="image-field__box h-100"><img src="image/section 6/t1.jpeg" alt=""></div>
+
+      </div>
+    </div>
+  </section>
+  <section class="whatever">
+    <div class="whatever__map"><img src="image/section7/map (1).png" alt=""></div>
+    <div class="whatever__bg ">
+      <div class=" container  d-flex flex-column justify-content-center ">
+        <h2 class="text-center pt-5 text-light">We do whatever it takes to bring you peace of mind</h2>
+        <div class=" mt-5 d-flex justify-content-center flex-column flex-md-row gap-5">
+          <button>Request a callback</button>
+          <div class="d-flex gap-2">
+            <i class="fab fa-whatsapp text-light mx-2 my-1"></i>
+            <div>
+              <span class=" text-light fs-5">24/7 service available</span>
+              <p class=" text-light fs-4 fw-bold">01 800 688 8688</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="footer__container">
+      <div class="row">
+        <div class="col-lg-3 mb-4">
+          <h3> Headquarters</h3>
+          <p>3079 West Sahara Avenue. Suite 362 Las Vegas NV 88735</p>
+          <p>support@linethemes.com
+            01 800 688 8688</p>
+          <img src="" alt="">
+        </div>
+        <div class="col-lg-3 mb-4">
+          <h3>Services</h3>
+          <span> Hourly care</span>
+          <span> Daily care</span>
+          <span>Hospital to home</span>
+          <span> Respite care</span>
+          <span> Specialized Care</span>
+
+        </div>
+
+
+        <div class="col-lg-3 mb-4">
+          <h3>Company</h3>
+          <span> About us</span>
+          <span> Locations</span>
+          <span> Caregivers</span>
+          <span> News & Blog</span>
+          <span> Contact us</span>
+        </div>
+
+
+        <div class="col-lg-3">
+          <h3> Newsletter</h3>
+          <p> Sign Up to receive the latest articles</p>
+          <input type="text" placeholder="    Your email address">
+          <button>SIGN UP</button>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
